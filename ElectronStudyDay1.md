@@ -32,3 +32,24 @@ yarn add --dev electron
 - yarn在某些情况下可能会导致一些依赖冲突，需要手动解决。
 ##总结：
 npm和yarn都是强大的包管理工具，选择使用哪个取决于项目需求和个人偏好。如果项目需要更快的安装速度和更好的安全性，可以选择yarn。如果项目对性能要求不高或者已经习惯使用npm，可以继续使用npm。
+##此时还不能运行electron项目，你需要做以下操作：
+###往package.json文件里添加一条start命令：
+ "scripts": {
+    "start": "electron ."
+  }
+
+运行：
+yarn start  (后面就尽量不用npm命令安装依赖）
+
+如果马上使用yarn start 运行则会出现报错，没有找到main.js文件。
+###向根目录添加main.js文件和index.html文件：
+
+![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/9ed9c483-8836-42d0-8634-2f1123c614b8)
+
+1.使用CommonJs require导入app，BrowserWindow模块，使用creat
+Window方法 创建一个宽800、高600的浏览器窗口，将index.html插入改窗口（index.html的内容写个hello world，顺便写的东西进去）
+##再次运行项目
+yarn start 
+![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/927136ee-fc4c-44d9-bba9-899daea67e69)
+
+
