@@ -2,10 +2,10 @@
 Electron是一个使用 JavaScript、HTML 和 CSS 构建桌面应用程序的框架。 嵌入 Chromium 和 Node.js 到 二进制的 Electron 允许您保持一个 JavaScript 代码代码库并创建 在Windows上运行的跨平台应用 macOS和Linux——不需要本地开发 经验。
 第一步确认本地电脑是否安装有node和npm
 ## 使用脚手架创建
-- npm:
+ npm:
 - mkdir my-electron-app && cd my-electron-app
 - npm init
-- yarn:
+ yarn:
 - mkdir my-electron-app && cd my-electron-app
 - yarn init
 ## 执行以上命令后，可以在命令行修改文件名字，需要安装Electron官网的规范了定义文件名。
