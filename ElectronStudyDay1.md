@@ -52,4 +52,35 @@ Window方法 创建一个宽800、高600的浏览器窗口，将index.html插入
 yarn start 
 ![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/927136ee-fc4c-44d9-bba9-899daea67e69)
 
+## 关闭所有窗口时退出应用 (Windows & Linux)
+监听 app 模块的 'window-all-closed' 事件。如果用户不是在 macOS(darwin) 上运行程序，则调用 app.quit()
+在main.js加入以下代码：
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit()
+})
+## 如果没有窗口打开则打开一个窗口 (macOS)
+因为窗口无法在 ready 事件前创建，需要中whenReady（）回调中调用
+app.whenReady().then(() => {
+  createWindow()
+
+  app.on('activate', () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  })
+})
+## 最后添加preload.js预加载脚本插入版本信息：
+![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/9ca7d41a-d9ce-460c-b799-ecfd9231b894)
+
+在main.js文件中加入代码：
+
+![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/f371945e-eb84-4217-b52d-8634a1f85c26)
+
+这里使用了两个Node.js概念：
+
+__dirname 字符串指向当前正在执行脚本的路径 (在本例中，它指向你的项目的根文件夹)。
+path.join API 将多个路径联结在一起，创建一个跨平台的路径字符串。
+
+## 最终结果
+![image](https://github.com/wuxin666789/Electron-Learning-Meadmes/assets/86199312/beb28d03-620b-4496-9b7f-739b84f48564)
+
+
 
