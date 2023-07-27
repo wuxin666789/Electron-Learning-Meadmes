@@ -1,0 +1,22 @@
+{
+  "name": "react-router",
+  "version": "1.0.0",
+  "description": "react-router",
+  "main": "main.js",
+  "author": "ivan.w",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.2.0",
+    "electron-reloader": "^1.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "electron ."
+  },
+  "homepage": "."
+}

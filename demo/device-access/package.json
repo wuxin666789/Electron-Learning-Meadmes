@@ -1,0 +1,14 @@
+{
+  "name": "device-access",
+  "version": "1.0.0",
+  "description": "device access",
+  "main": "main.js",
+  "author": "ivan.w",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.2.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

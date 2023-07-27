@@ -1,0 +1,21 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: balck) {
+  body {
+    background: #ddd;
+    color: black;
+  }
+}
+/* 
+prefers-color-scheme css媒体查询用于检测用户的首选颜色方案（明亮或黑暗模式），以便根据用户的首选颜色方案来应用不同的样式。
+相关属性和方法如下：
+1.@media （prefers-color-scheme:light):当选择明亮模式时应用的样式
+2.@media （prefers-color-scheme:dark):当选择黑暗模式时应用的样式
+3.window.matchMedia('(prefers-color-scheme:light)'):javascript方法，用于检测用户首选颜色模式是否为明亮模式
+3.window.matchMedia('(prefers-color-scheme:dark)'):javascript方法，用于检测用户首选颜色模式是否为黑暗模式
+*/
