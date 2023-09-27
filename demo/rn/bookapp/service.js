@@ -41,7 +41,7 @@ export async function addTracks() {
   await TrackPlayer.add([
     {
       id: '10',
-      url: 'http://other.player.rf01.sycdn.kuwo.cn/bd2f14ca06374b601889d7100ec318bd/64ddf7c0/resource/n3/55/26/3051054552.mp3',
+      url: 'http://lv.sycdn.kuwo.cn/b51186dc3a20f900028d2d520c632e01/64dffd88/resource/30106/trackmedia/M500002WMib00Nnisj.mp3',
       title: '天外来物',
       artist: '薛之谦',
       duration: 60,

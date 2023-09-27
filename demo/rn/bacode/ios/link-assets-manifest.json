@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/demo.css",
+      "sha1": "65c50db528a5abe06426b1a20735feaf1f2a0d9b"
+    },
+    {
+      "path": "src/assets/fonts/demo_index.html",
+      "sha1": "cc29ff922d953687387ea121925482c3ec462cdd"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.css",
+      "sha1": "d0ce6c362ff853b492fa75cd0bc0523cc1b695a1"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.js",
+      "sha1": "2f11ba668371e69720da49977e0b6f5b322af4bf"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.json",
+      "sha1": "ecdc735ce3493c79bed51d9ac45ebb0bc8677693"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.ttf",
+      "sha1": "932d77a183d3954eed0e476d933296280745d534"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.woff",
+      "sha1": "b1f3345e86ae69b3ce5675e26c024845cb9d86df"
+    },
+    {
+      "path": "src/assets/fonts/iconfont.woff2",
+      "sha1": "3bd99f16d8340a3c897fb28c07c918542af37b4c"
+    }
+  ]
+}

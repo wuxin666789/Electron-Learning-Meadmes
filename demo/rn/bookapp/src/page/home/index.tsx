@@ -15,7 +15,7 @@ import SwiperComponent from './components/swiper';
 import useAction from './hook';
 import TrackPlayer from 'react-native-track-player';
 
-import {Style} from './index-css';
+import * as Style from './styles';
 import {useEffect, useState} from 'react';
 import {setupPlayer, addTracks} from '../../../service';
 
@@ -69,7 +69,7 @@ export const Home = () => {
                 <Text>{item.text}</Text>
               </View>
             )}
-            keyExtractor={(item: {icon: string; text: string}) => item.text}
+            keyExtractor={(item: {icon: string; text: string}) => item.icon}
           />
         </View>
         <Text>{'大家都在听'}</Text>

@@ -9,6 +9,7 @@ import {
 } from '@react-navigation/native';
 import {Home} from './src/page/home';
 import Play from './src/components/play';
+import ReceivingList from './src/page/barcode/receiving-list';
 
 const Tab = createBottomTabNavigator();
 
@@ -17,7 +18,7 @@ const Fn = () => {
 };
 
 const Kfc = () => {
-  return <Text>kfc</Text>;
+  return <ReceivingList />;
 };
 
 const NovelTabs = () => {
@@ -66,14 +67,13 @@ function App(): JSX.Element {
     colors: {
       ...DefaultTheme.colors,
       primary: 'rgb(255, 45, 85)',
-      background: '#fff',
+      background: '#f2f5fc',
     },
   };
   return (
     <View
       style={{
         height: '100%',
-
         position: 'relative',
       }}>
       <NavigationContainer theme={MyTheme}>

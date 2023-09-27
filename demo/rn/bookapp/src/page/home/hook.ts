@@ -38,19 +38,19 @@ const useAction = () => {
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥1',
         singer: '1',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥2',
         singer: '2',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥3',
         singer: '3',
       },
     ],
@@ -58,19 +58,19 @@ const useAction = () => {
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥4',
         singer: '4',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥5',
         singer: '5',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥6',
         singer: '6',
       },
     ],
@@ -78,19 +78,19 @@ const useAction = () => {
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥7',
         singer: '7',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥8',
         singer: '8',
       },
       {
         cover:
           'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-        songName: '杰哥',
+        songName: '杰哥9',
         singer: '9',
       },
     ],
@@ -100,37 +100,37 @@ const useAction = () => {
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥1',
       singer: '1',
     },
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥2',
       singer: '2',
     },
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥3',
       singer: '3',
     },
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥4',
       singer: '4',
     },
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥5',
       singer: '5',
     },
     {
       cover:
         'https://img.alicdn.com/imgextra/i1/O1CN01EI93PS1xWbnJ87dXX_!!6000000006451-2-tps-150-150.png',
-      songName: '杰哥',
+      songName: '杰哥6',
       singer: '6',
     },
   ]);

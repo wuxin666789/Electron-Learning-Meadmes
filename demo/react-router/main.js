@@ -11,17 +11,13 @@ function createWindow() {
   //创建浏览器窗口，宽高800、600
   mainWindow = new BrowserWindow({ width: 800, height: 600 });
 
-  //加载应用----react项目适用
-  mainWindow.loadURL("http://localhost:3000/");
-
-  //打包react应用
-  // mainWindow.loadURL(
-  //   url.format({
-  //     pathname: path.join(__dirname, "./build/index.html"),
-  //     protocol: "file:",
-  //     slashes: true,
-  //   })
-  // );
+  mainWindow.loadURL(
+    url.format({
+      pathname: path.join(__dirname, "./build/index.html"),
+      protocol: "file:",
+      slashes: true,
+    })
+  );
 
   //打开开发者工具，默认不打开
   // mainWindow.webContents.openDevTools()

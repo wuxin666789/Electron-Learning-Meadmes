@@ -1,8 +1,12 @@
+if (require("electron-squirrel-startup")) app.quit();
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
 
 let bluetoothPinCallback;
 let selectBluetoothCallback;
+
+//打开开发者工具，默认不打开
+// mainWindow.webContents.openDevTools();
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
