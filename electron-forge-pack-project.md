@@ -13,7 +13,6 @@ yarn electron-forge import
 
 ```
 {
-  // ...
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
