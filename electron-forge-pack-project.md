@@ -1,3 +1,7 @@
+# 0.构建：vite+electron+ts
+
+` yarn create electron-app my-new-app --template=vite-typescript`
+
 # 1.配置 electron forge
 
 - https://www.electronforge.io/import-existing-project
